@@ -20,10 +20,10 @@ function updateGuest() {
 
 function clearScores() {
 
-    scoreHome.textContent = 0
-    scoreGuest.textContent = 0
     home = 0
     guest = 0
+    updateHome()
+    updateGuest()
 
 }
 
